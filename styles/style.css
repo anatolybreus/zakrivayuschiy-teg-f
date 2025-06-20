@@ -39,7 +39,7 @@
   margin-block-end: 100px;
   margin-inline: auto;
   padding: 128px 0;
-  font-family: var(--font-accent, "PressStart2P");
+  font-family: var(--font-accent, "PressStart2P", fantasy);
   text-transform: uppercase;
   border: 3px solid var(--black-color, #000000);
   background: var(--white-color, #ffffff);
@@ -100,7 +100,7 @@
   z-index: 1;
   opacity: 0.5;
   color: var(--black-color, #000000);
-  font-family: var(--font-accent, "PressStart2P");
+  font-family: var(--font-accent, "PressStart2P", fantasy);
   font-size: 14px;
   text-shadow: 0 0 1px var(--white-color, #ffffff);
   inset-inline-end: 25px;
@@ -164,7 +164,6 @@
   flex-direction: column;
   padding: 25px;
   border: 2px solid var(--black-color, #000000);
-  border-block-start: 0;
 }
 
 .card-info__text {
@@ -175,11 +174,11 @@
 
 @media (width <= 375px) {
   .card-info__text {
-    line-height: 117%;
+    line-height: 116%;
   }
 }
 
-.card-info__text--last-mb {
+.card-info__wrap-text .card-info__text:last-of-type {
   margin-block-end: 20px;
 }
 
@@ -206,7 +205,7 @@
 .button--like {
   position: relative;
   z-index: 1;
-  font-family: var(--font-accent, "PressStart2P");
+  font-family: var(--font-accent, "PressStart2P", fantasy);
   font-size: 14px;
   line-height: 99%;
   border: 2px solid var(--black-color, #000000);
@@ -409,7 +408,7 @@
 }
 
 .modal-popup__text {
-  font-family: var(--font-accent, "PressStart2P");
+  font-family: var(--font-accent, "PressStart2P", fantasy);
   font-size: 14px;
   line-height: 1.5;
   text-transform: uppercase;
