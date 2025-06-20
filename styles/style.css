@@ -208,7 +208,7 @@
   z-index: 1;
   font-family: var(--font-accent, "PressStart2P");
   font-size: 14px;
-  line-height: 90%;
+  line-height: 99%;
   border: 2px solid var(--black-color, #000000);
   padding: 12px;
   inline-size: 130px;
